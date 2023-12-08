@@ -1,0 +1,14 @@
+---
+title: "R Notebook"
+author: "Gia Ongaro"
+output: html_notebook
+---
+
+# Practice Notebook
+
+This is my practice notebook.
+
+```{r}
+plot(mtcars$mpg, mtcars$wt)
+```
+
