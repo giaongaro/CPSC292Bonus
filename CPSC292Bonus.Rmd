@@ -4,6 +4,28 @@ author: "Gia Ongaro"
 output: html_notebook
 ---
 
+
+```{r}
+my.matrix <- matrix(rep(NA, 10*5), nrow = 10, ncol = 5)
+
+for(j in 1:5){
+  for(i in 1:10){
+  my.matrix[i,j] <- i*j
+  }
+}  
+
+my.matrix
+```
+
+
+```{r}
+(plot(height~age, data = Loblolly, 
+     col = Loblolly$Seed))
+points(x = Loblolly$age, y = Loblolly$height, col = Loblolly$Seed)
+```
+
+
+
 # Practice Notebook
 
 This is my practice notebook.
